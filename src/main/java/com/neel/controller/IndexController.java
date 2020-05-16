@@ -15,7 +15,7 @@ public class IndexController {
 	
 	@RequestMapping("/employee/{name}")
 	public String getEmployeeByID(@PathVariable("name") String name) {
-		return "Hello   -"+name;
+		return "Hello : "+name;
 	}
 
 }
